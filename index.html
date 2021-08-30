@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <input class="form-control form-control-lg mb-4" type="text" placeholder="Name Your Burger">
+                    <input id="nome_panino" class="form-control form-control-lg mb-4" type="text" placeholder="Name Your Burger" autocomplete="off">
                 </div>
             </div>
             <div class="row">
@@ -40,18 +40,18 @@
                 <div class="col-3">
                     <ul>
                         <li>
-                            <img src="##" alt="immagine formaggio"><span>Cheese</span>
-                            <input type="checkbox" id="ingredient1" name="ingredient1" value="cheese">
+                            <img src="##" alt="immagine formaggio"><span> Cheese</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient1" name="ingredient1" value="cheese" autocomplete="off">
                             <label for="ingredient1"> add</label><br>
                         </li>
                         <li>
-                            <img src="##" alt="immagine uovo"><span>Egg</span>
-                            <input type="checkbox" id="ingredient2" name="ingredient2" value="egg">
+                            <img src="##" alt="immagine uovo"><span> Egg</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient2" name="ingredient2" value="egg" autocomplete="off">
                             <label for="ingredient2"> add</label><br>
                         </li>
                         <li>
-                            <img src="##" alt="immagine mostarda"><span>Mustard</span>
-                            <input type="checkbox" id="ingredient3" name="ingredient3" value="mustard">
+                            <img src="##" alt="immagine mostarda"><span> Mustard</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient3" name="ingredient3" value="mustard autocomplete="off"">
                             <label for="ingredient3"> add</label><br>
                         </li>
                     </ul>
@@ -59,18 +59,18 @@
                 <div class="col-3">
                     <ul>
                         <li>
-                            <img src="##" alt="immagine pomodoro"><span>Tomato</span>
-                            <input type="checkbox" id="ingredient4" name="ingredient4" value="tomato">
+                            <img src="##" alt="immagine pomodoro"><span> Tomato</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient4" name="ingredient4" value="tomato" autocomplete="off">
                             <label for="ingredient4"> add</label><br>
                         </li>
                         <li>
-                            <img src="##" alt="immagine lattuga"><span>Lettuce</span>
-                            <input type="checkbox" id="ingredient5" name="ingredient5" value="lettuce">
+                            <img src="##" alt="immagine lattuga"><span> Lettuce</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient5" name="ingredient5" value="lettuce" autocomplete="off">
                             <label for="ingredient5"> add</label><br>
                         </li>
                         <li>
-                            <img src="##" alt="immagine ketchup"><span>Ketchup</span>
-                            <input type="checkbox" id="ingredient6" name="ingredient6" value="ketchup">
+                            <img src="##" alt="immagine ketchup"><span> Ketchup</span>
+                            <input class="ingredient_check" type="checkbox" id="ingredient6" name="ingredient6" value="ketchup" autocomplete="off">
                             <label for="ingredient6"> add</label><br>
                         </li>
                     </ul>
@@ -81,12 +81,12 @@
                     <label class="col-form-label mt-4">Discount Coupon</label>
                 </div>
                 <div class="col-5">
-                  <input class="form-control mt-4" type="text" placeholder="12354ABCDEF">
+                  <input id="coupon" class="form-control mt-4" type="text" placeholder="12354ABCDEF" autocomplete="off">
                 </div> 
             </div>
             <div class="row text-center">
                 <div class="col-6">
-                    <button type="button" class="btn btn-warning mt-5">calculate</button>
+                    <button type="button" id="bottone_panino" class="btn btn-warning mt-5">calculate</button>
                 </div>
 
             </div>
@@ -100,7 +100,7 @@
                         <h5>Your Price</h5>
                     </div>
                     <div class="col-3 text-end">
-                        <span class="price fs-5">&euro; 50</span>
+                        <span id="price" class="fs-5">&euro; 50</span>
                     </div>
                 </div>
             </div>

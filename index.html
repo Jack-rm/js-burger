@@ -14,7 +14,99 @@
     <title>JS Burger</title>
 </head>
 <body>
-    
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="pt-4 pb-4">Create Your Burger</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <input class="form-control form-control-lg mb-4" type="text" placeholder="Name Your Burger">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h5>Ingredients</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <img src="##" alt="immagine formaggio"><span>Cheese</span>
+                            <input type="checkbox" id="ingredient1" name="ingredient1" value="cheese">
+                            <label for="ingredient1"> add</label><br>
+                        </li>
+                        <li>
+                            <img src="##" alt="immagine uovo"><span>Egg</span>
+                            <input type="checkbox" id="ingredient2" name="ingredient2" value="egg">
+                            <label for="ingredient2"> add</label><br>
+                        </li>
+                        <li>
+                            <img src="##" alt="immagine mostarda"><span>Mustard</span>
+                            <input type="checkbox" id="ingredient3" name="ingredient3" value="mustard">
+                            <label for="ingredient3"> add</label><br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <img src="##" alt="immagine pomodoro"><span>Tomato</span>
+                            <input type="checkbox" id="ingredient4" name="ingredient4" value="tomato">
+                            <label for="ingredient4"> add</label><br>
+                        </li>
+                        <li>
+                            <img src="##" alt="immagine lattuga"><span>Lettuce</span>
+                            <input type="checkbox" id="ingredient5" name="ingredient5" value="lettuce">
+                            <label for="ingredient5"> add</label><br>
+                        </li>
+                        <li>
+                            <img src="##" alt="immagine ketchup"><span>Ketchup</span>
+                            <input type="checkbox" id="ingredient6" name="ingredient6" value="ketchup">
+                            <label for="ingredient6"> add</label><br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-auto">
+                    <label class="col-form-label mt-4">Discount Coupon</label>
+                </div>
+                <div class="col-5">
+                  <input class="form-control mt-4" type="text" placeholder="12354ABCDEF">
+                </div> 
+            </div>
+            <div class="row text-center">
+                <div class="col-6">
+                    <button type="button" class="btn btn-warning mt-5">calculate</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="price-box mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <h5>Your Price</h5>
+                    </div>
+                    <div class="col-3 text-end">
+                        <span class="price fs-5">&euro; 50</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
 
     <script type="text/javascript" src="javascript/script.js">
     </script>
